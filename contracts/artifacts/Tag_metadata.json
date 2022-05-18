@@ -25,6 +25,24 @@
 				"type": "event"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tagTime",
+						"type": "string"
+					}
+				],
+				"name": "createPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getPerson",
 				"outputs": [
@@ -53,19 +71,6 @@
 			{
 				"inputs": [],
 				"name": "renounceOwnership",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_value",
-						"type": "string"
-					}
-				],
-				"name": "setPerson",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -138,11 +143,11 @@
 			]
 		},
 		"contracts/tag.sol": {
-			"keccak256": "0xa0b3673bd53238eeddf9283d837b7d8a335c61d4380a65012999d8f272e447a2",
+			"keccak256": "0xba72d58eeafb6f7d8fab74f19c54140916d7c522532c6eff57b768b0a4fcfce3",
 			"license": "none",
 			"urls": [
-				"bzz-raw://46d1be7698c6179179c60068b039f9b2f2bbb6156cc957d1610a6d82172759eb",
-				"dweb:/ipfs/QmVQTuKzL5Z7Vg9DZLGHUnsNEKgS7dePsF346g622rotF9"
+				"bzz-raw://1d08da24b887136070162d6019540007c84edf366ad06e0c380ea5f49f0b0eec",
+				"dweb:/ipfs/Qmdn5L2Y9aNMRR6Z1psRw2rJvtPKrvRy6d2tUc8GW8hDhu"
 			]
 		}
 	},
